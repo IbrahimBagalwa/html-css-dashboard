@@ -10,15 +10,15 @@ welcome to responsive admin dashboard.
 - [Built with](#built-with)
 - [Author](#author)
 
-### Screenshot
+## Screenshot
 
 ![Dashbord-home-page](./scren-home.png)
 
-### Links
+## Links
 
 <!-- - Live Site URL: [Space Tourism](https://ibrahimbagalwa.github.io/space-tourism/) -->
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
