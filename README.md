@@ -26,7 +26,7 @@ welcome to responsive admin dashboard.
 - CSS Grid
 
 <br/>
-## Author
+### Author
 
 - Ibrahim Bagalwa
 <p align="left">
