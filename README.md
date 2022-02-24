@@ -25,8 +25,7 @@ welcome to responsive admin dashboard.
 - Flexbox
 - CSS Grid
 
-<br/>
-### Author
+## Author
 
 - Ibrahim Bagalwa
 <p align="left">
