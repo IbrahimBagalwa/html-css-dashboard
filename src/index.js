@@ -10,3 +10,13 @@ function activeLink(){
 list.forEach((itm)=>{
     itm.addEventListener('mouseover', activeLink)
 })
+// MenuToggle
+let toggle = document.querySelector('.toggle');
+let navigation = document.querySelector('.navigation');
+let main = document.querySelector('.main');
+
+toggle.onclick = ()=>{
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+}
+
