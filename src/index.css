@@ -38,13 +38,7 @@ body {
   left: 0;
   width: 100%;
 }
-/* .navigation ul li {
-  position: relative;
-  width: 100%;
-  list-style-type: none;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-} */
+
 .navigation ul li:hover,
 .navigation ul li.hovered a {
   background: var(--clr-white);
