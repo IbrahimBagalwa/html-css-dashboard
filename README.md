@@ -12,11 +12,11 @@ welcome to responsive admin dashboard.
 
 ## Screenshot
 
-![Dashbord-home-page](./scren-home.png)
+![Dashbord-home-page](./home.png)
 
 ## Links
 
-<!-- - Live Site URL: [Space Tourism](https://ibrahimbagalwa.github.io/space-tourism/) -->
+- Live Site URL: [Space Tourism](https://ibrahimbagalwa.github.io/space-tourism/)
 
 ## Built with
 
