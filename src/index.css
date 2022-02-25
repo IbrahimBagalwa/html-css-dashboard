@@ -22,7 +22,7 @@ body {
 }
 .navigation {
   position: fixed;
-  width: 300px;
+  width: 250px;
   height: 100%;
   background: var(--clr-blue);
   border-left: 10px solid var(--clr-blue);
@@ -35,15 +35,18 @@ body {
   left: 0;
   width: 100%;
 }
-.navigation ul li {
+/* .navigation ul li {
   position: relative;
   width: 100%;
   list-style-type: none;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-}
-.navigation ul li:hover {
+} */
+.navigation ul li:hover,
+.navigation ul li.hovered a {
   background: var(--clr-white);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 .navigation ul li:nth-child(1) {
   margin-bottom: 40px;
@@ -56,7 +59,8 @@ body {
   text-decoration: none;
   color: var(--clr-white);
 }
-.navigation ul li:hover a {
+.navigation ul li:hover a,
+.navigation ul li.hovered a {
   color: var(--clr-blue);
 }
 .navigation ul li a .icon {
@@ -78,7 +82,8 @@ body {
   white-space: nowrap;
 }
 /* cuver outside */
-.navigation ul li:hover a::before {
+.navigation ul li:hover a::before,
+.navigation ul li.hovered a::before {
   content: "";
   position: absolute;
   right: 0;
@@ -90,7 +95,8 @@ body {
   box-shadow: 35px 35px 0 10px var(--clr-white);
   pointer-events: none;
 }
-.navigation ul li:hover a::after {
+.navigation ul li:hover a::after,
+.navigation ul li.hovered a::after {
   content: "";
   position: absolute;
   right: 0;
