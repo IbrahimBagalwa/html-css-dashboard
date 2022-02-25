@@ -37,8 +37,10 @@ body {
 }
 .navigation ul li {
   position: relative;
-  width: 200%;
+  width: 100%;
   list-style-type: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 .navigation ul li:hover {
   background: var(--clr-white);
@@ -64,7 +66,7 @@ body {
   height: 60px;
   text-align: center;
   font-size: 1.75rem;
-  line-height: 60px;
+  line-height: 70px;
 }
 .navigation ul li a .title {
   position: relative;
@@ -74,4 +76,29 @@ body {
   line-height: 60px;
   text-align: start;
   white-space: nowrap;
+}
+/* cuver outside */
+.navigation ul li:hover a::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0 10px var(--clr-white);
+  pointer-events: none;
+}
+.navigation ul li:hover a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 35px -35px 0 10px var(--clr-white);
+  pointer-events: none;
 }
