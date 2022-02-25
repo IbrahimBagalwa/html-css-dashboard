@@ -16,7 +16,7 @@ welcome to responsive admin dashboard.
 
 ## Links
 
-- Live Site URL: [Space Tourism](https://ibrahimbagalwa.github.io/space-tourism/)
+- Live Site URL: [Space Tourism](https://ibrahimbagalwa.github.io/html-css-dashboard/)
 
 ## Built with
 
